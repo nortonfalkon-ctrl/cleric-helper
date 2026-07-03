@@ -1,0 +1,18 @@
+{
+  "CLERIC_HELPER.Settings.Debug.Name": "Debug logging",
+  "CLERIC_HELPER.Settings.Debug.Hint": "Print diagnostic information to the browser console when healing rolls are detected.",
+  "CLERIC_HELPER.Settings.ChatNotice.Name": "Show chat notice",
+  "CLERIC_HELPER.Settings.ChatNotice.Hint": "Show a chat message with the calculated and applied Life Domain healing bonus.",
+  "CLERIC_HELPER.Settings.RequireDiscipleFeature.Name": "Require Disciple of Life feature",
+  "CLERIC_HELPER.Settings.RequireDiscipleFeature.Hint": "If enabled, the bonus is applied only to actors that have Disciple of Life / Поборник жизни or a Life Domain cleric class entry. If Foundry does not recognize your character, temporarily disable this setting for testing.",
+  "CLERIC_HELPER.Settings.AutoRepair.Name": "Auto-repair old healing bonus",
+  "CLERIC_HELPER.Settings.AutoRepair.Hint": "Automatically clear invalid numeric healing.bonus values that may have been left by earlier test builds of this module.",
+  "CLERIC_HELPER.Chat.Title": "Cleric-helper",
+  "CLERIC_HELPER.Chat.Disciple": "Disciple of Life bonus",
+  "CLERIC_HELPER.Chat.Spell": "Spell",
+  "CLERIC_HELPER.Chat.SlotLevel": "Slot level",
+  "CLERIC_HELPER.Chat.BonusFormula": "Formula",
+  "CLERIC_HELPER.Chat.Applied": "The bonus has been added to the healing roll configuration.",
+  "CLERIC_HELPER.Chat.AppliedFallback": "The bonus was added after the roll by fallback handling.",
+  "CLERIC_HELPER.RollFlavor.Disciple": "Disciple of Life"
+}

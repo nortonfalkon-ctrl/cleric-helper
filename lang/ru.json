@@ -1,0 +1,18 @@
+{
+  "CLERIC_HELPER.Settings.Debug.Name": "Отладка в консоль",
+  "CLERIC_HELPER.Settings.Debug.Hint": "Выводить диагностическую информацию в консоль браузера, когда обнаружен бросок лечения.",
+  "CLERIC_HELPER.Settings.ChatNotice.Name": "Показывать сообщение в чат",
+  "CLERIC_HELPER.Settings.ChatNotice.Hint": "Показывать сообщение с рассчитанным и применённым бонусом лечения домена жизни.",
+  "CLERIC_HELPER.Settings.RequireDiscipleFeature.Name": "Требовать особенность Поборник жизни",
+  "CLERIC_HELPER.Settings.RequireDiscipleFeature.Hint": "Если включено, бонус применяется только актёрам, у которых найдена особенность Поборник жизни / Disciple of Life или жрец домена жизни. Если Foundry не распознаёт вашего персонажа, временно выключите эту настройку для теста.",
+  "CLERIC_HELPER.Settings.AutoRepair.Name": "Автоисправление старого бонуса лечения",
+  "CLERIC_HELPER.Settings.AutoRepair.Hint": "Автоматически очищать неверные числовые значения healing.bonus, которые могли остаться после ранних тестовых версий модуля.",
+  "CLERIC_HELPER.Chat.Title": "Cleric-helper",
+  "CLERIC_HELPER.Chat.Disciple": "Бонус Поборника жизни",
+  "CLERIC_HELPER.Chat.Spell": "Заклинание",
+  "CLERIC_HELPER.Chat.SlotLevel": "Уровень ячейки",
+  "CLERIC_HELPER.Chat.BonusFormula": "Формула",
+  "CLERIC_HELPER.Chat.Applied": "Бонус добавлен в конфигурацию броска лечения.",
+  "CLERIC_HELPER.Chat.AppliedFallback": "Бонус добавлен запасным способом после броска.",
+  "CLERIC_HELPER.RollFlavor.Disciple": "Поборник жизни"
+}
