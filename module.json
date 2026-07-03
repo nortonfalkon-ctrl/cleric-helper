@@ -1,43 +1,48 @@
 {
-  "id": "cleric-helper",
-  "title": "Cleric-helper",
-  "description": "A small Foundry VTT helper module for D&D 5e Life Domain Cleric healing calculations.",
-  "version": "0.1.8",
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "authors": [
-    {
-      "name": "Norton Moon"
-    }
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "5.0.0"
+    "id": "cleric-helper",
+    "title": "Cleric-helper",
+    "description": "Foundry VTT module for automating Life Domain cleric healing bonuses in D&D 5e.",
+    "version": "0.1.8",
+    "authors": [
+        {
+            "name": "Norton Moon"
         }
-      }
-    ]
-  },
-  "scripts": [
-    "scripts/cleric-helper.js"
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
     },
-    {
-      "lang": "ru",
-      "name": "Русский",
-      "path": "lang/ru.json"
-    }
-  ],
-  "manifest": "",
-  "download": ""
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "5.3.0",
+                    "verified": "5.3.3"
+                }
+            }
+        ]
+    },
+    "scripts": [
+        "scripts/cleric-helper.js"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "ru",
+            "name": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+            "path": "lang/ru.json"
+        }
+    ],
+    "url": "https://github.com/nortonfalkon-ctrl/cleric-helper",
+    "manifest": "https://raw.githubusercontent.com/nortonfalkon-ctrl/cleric-helper/main/module.json",
+    "download": "https://github.com/nortonfalkon-ctrl/cleric-helper/releases/download/v0.1.8/cleric-helper-v0.1.8.zip",
+    "readme": "https://raw.githubusercontent.com/nortonfalkon-ctrl/cleric-helper/main/README.md",
+    "changelog": "https://raw.githubusercontent.com/nortonfalkon-ctrl/cleric-helper/main/CHANGELOG.md",
+    "bugs": "https://github.com/nortonfalkon-ctrl/cleric-helper/issues"
 }
